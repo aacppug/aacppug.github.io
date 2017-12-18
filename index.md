@@ -1,5 +1,5 @@
 ## 2017-12-18 - Planning meeting
-Wohoo! We have a new website: http://aacppug.dk forwarding to http://aacppug.github.io
+Wohoo! We have a new website: [http://aacppug.dk](http://aacppug.dk) forwarding to [http://aacppug.github.io](http://aacppug.github.io)
 
 Kalle talks about boost-asio (+ christmas quiz) in OSAA - Friday 12th January 2018. 
 
