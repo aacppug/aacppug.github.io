@@ -10,4 +10,4 @@ Introduction to Qt (Thorbjørn et al?) in OSAA planned around ultimo February/pr
 Embedded google calendar into our website:
 https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FParis
 
-<iframe src="https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen" style="border: 0" width="640" height="480" frameborder="0" scrolling="no"></iframe>
