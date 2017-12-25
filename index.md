@@ -4,9 +4,9 @@ Welcome to the website of the C++ user group of Aarhus.
 ## Join Our Mailinglist
 [https://groups.google.com/forum/#!forum/aarhus-cpp-user-group](https://groups.google.com/forum/#!forum/aarhus-cpp-user-group)
 
-## Event Calendar
+## Upcoming Events
 
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen" style="border: 0" width="640" height="480" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0" width="640" height="200" frameborder="0" scrolling="no"></iframe>
 
 Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
 
