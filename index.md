@@ -4,6 +4,20 @@ Welcome to the website of the C++ user group of Aarhus.
 ## Join Our Mailinglist
 [https://groups.google.com/forum/#!forum/aarhus-cpp-user-group](https://groups.google.com/forum/#!forum/aarhus-cpp-user-group)
 
+## Next up: Virksomhedsbesøg hos Draupner Graphics - TouchGFX
+
+  * Thursday 22nd Febuary: 17.00 – 19.00.
+  * Finlandsgade 10.
+  * Room: Hymer (2nd floor)
+
+TouchGFX is a C++ based graphics framework that enables you to create innovative embedded GUIs with high-end graphics and smooth animations on microcontrollers.
+
+With partners like STMicroelectronics, NXP and Renesas and customer including companies like LG, Velux and SodaStream TouchGFX is widely used and well known around the world.
+
+Read more about the product at http://TouchGFX.com
+
+Come and meet TouchGFX core team members, get an introduction to the product and the company. Hear about some of the C++ design choices, some of the challenges of C++ and hopefully a general discussion about doing graphics on embedded devices (using C++ of course:).
+
 ## Upcoming Events
 
 <iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
