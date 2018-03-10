@@ -6,16 +6,18 @@ Welcome to the website of the C++ user group of Aarhus.
 
 ## Next up: Workshop - Introduktion til Qt på Raspberry Pi Zero
 
-  * Mandag 19nd Marts: 16.30 – 20.30++.
-  * Sted: Open Space Aarhus, Katrinebjergvej 105 (se eventuelt http://osaa.dk/).
+  * Mandag 19. marts: 16.30 – 20.30++.
+  * Sted: Open Space Aarhus, Katrinebjergvej 105 (se eventuelt [http://osaa.dk/](http://osaa.dk/)).
 
 Vi starter med en introduktion til Qt generelt, efterfulgt af en gennemgang af hvordan man bruger Qt på indlejrede systemer.
 
 Derefter vil der være nogle opgaver som vi vil prøve at løse i fællesskab på Raspberry Pi Zeros.
 Vi har en håndfuld, men hvis du selv har een, skal du være mere end velkommen til at medbringe den.
 
-For at lette selve kompileringen har vi (dvs. Søren Hansen) lavet et VMWare image med den fulde toolchain. Den samt et image til at flashe SD kortet på Raspberry Pien kan hentes her:
+For at lette selve kompileringen har vi (dvs. Søren Hansen) lavet et VMWare image med den fulde toolchain. Det, samt et image til at flashe SD kortet på Raspberry Pien kan hentes her:
 [http://www.aasimon.org/public/aacppug-qt](http://www.aasimon.org/public/aacppug-qt)
+
+Hvis man vil prøve kræfter med imaget inden workshoppen er der en kort introduktion til hvordan man kommer igang i [README](http://www.aasimon.org/public/aacppug-qt/README) filen.
 
 ## Upcoming Events
 
@@ -35,7 +37,7 @@ TouchGFX is a C++ based graphics framework that enables you to create innovative
 
 With partners like STMicroelectronics, NXP and Renesas and customer including companies like LG, Velux and SodaStream TouchGFX is widely used and well known around the world.
 
-Read more about the product at http://TouchGFX.com
+Read more about the product at [http://TouchGFX.com](http://TouchGFX.com)
 
 Come and meet TouchGFX core team members, get an introduction to the product and the company. Hear about some of the C++ design choices, some of the challenges of C++ and hopefully a general discussion about doing graphics on embedded devices (using C++ of course:).
 
