@@ -4,7 +4,30 @@ Welcome to the website of the C++ user group of Aarhus.
 ## Join Our Mailinglist
 [https://groups.google.com/forum/#!forum/aarhus-cpp-user-group](https://groups.google.com/forum/#!forum/aarhus-cpp-user-group)
 
-## Next up: Workshop - Introduktion til Qt på Raspberry Pi Zero
+## Next up: Virksomhedsbesøg hos Kamstrup
+Torsdag d. 3. Maj 2018 kl. 17:00 til 19:00.
+
+Hos Kamstrup, Industrivej 28, 8660 Stilling
+
+Agendaen vil være:
+
+  * Præsentation af Kamstrup
+  * Qt i embedded Linux uden skærm
+  * Fra Qt til std:: hvad de nye standarder kan gøre
+
+Da Kamstrup går meget op i sikkerheden er det desværre nødvendigt at tilmelde sig ved at skrive en e-mail til pmb@kamstrup.dk med navn i senest tirsdag d. 1/5.
+
+Vi vil opfordre til at arrangere fælleskørsel via [mailinglisten](https://groups.google.com/forum/#!forum/aarhus-cpp-user-group), alternativt går rute 200 næsten til døren.
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## Workshop - Introduktion til Qt på Raspberry Pi Zero
 
   * Mandag 19. marts: 16.30 – 20.30++.
   * Sted: Open Space Aarhus, Katrinebjergvej 105 (se eventuelt [http://osaa.dk/](http://osaa.dk/)).
@@ -18,14 +41,6 @@ For at lette selve kompileringen har vi (dvs. Søren Hansen) lavet et VMWare ima
 [http://www.aasimon.org/public/aacppug-qt](http://www.aasimon.org/public/aacppug-qt)
 
 Hvis man vil prøve kræfter med imaget inden workshoppen er der en kort introduktion til hvordan man kommer igang i [README](http://www.aasimon.org/public/aacppug-qt/README) filen.
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## Virksomhedsbesøg hos Draupner Graphics - TouchGFX
 
