@@ -4,7 +4,32 @@ Welcome to the website of the C++ user group of Aarhus.
 ## Join Our Mailinglist
 [https://groups.google.com/forum/#!forum/aarhus-cpp-user-group](https://groups.google.com/forum/#!forum/aarhus-cpp-user-group)
 
-## Next up: Virksomhedsbesøg hos Kamstrup
+## Next up: Mjølner seminar: C++17 - endnu en revision af standarden og hva' så?
+Torsdag d. 7. juni 2018 kl. 16 - ca. 18
+
+Hos Mjølner Informatics A/S - Finlandsgade 10, 8200 Aarhus N
+
+[Tilmelding påkrævet](https://mjolner.dk/2018/05/22/mjoelner-seminar-c17-endnu-en-revision-af-standarden-og-hva-saa/)
+
+Kunne du tænke dig viden om og indsigt i de nyeste udvidelser og ændringer af C++ i C++17?
+Mjølner åbner dørene til et fagligt seminar, og denne gang får du mulighed for at dykke ned i et udvalg af nyhederne i C++17.
+Vi har fået ekspert Søren Hansen til at komme og guide dig. Han vil komme ind på de tiltag der er foretaget for at gøre sproget mere tilgængeligt for den ‘almene udvikler’, herunder structured bindings, inline variables, nested namespace, if & switch with initialisers, mm.
+Søren vil også tale om standardbiblioteket, hvor der er nyheder som std::string_view, std::optional, std::variant og std::filesystem.
+Af andre spændende og avancerede nyskabelser er der class template argument deduction, compile time if, fold expressions og void_t. Endelig er der kommet support for parallel algoritmer i standardbiblioteket, som fx std::for_each, std::transform.
+Seminaret vil være en blanding af konceptuelle forklaringer og kode – dog med fokus på kode.
+Der er med andre ord et par spændende eftermiddagstimer på programmet.
+
+OBS: AaCppUG er ikke arrangør af seminaret, det er Mjølner, vi opfordrer blot vores medlemmer til deltagelse :-)
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## Virksomhedsbesøg hos Kamstrup
 Torsdag d. 3. Maj 2018 kl. 17:00 til 19:00.
 
 Hos Kamstrup, Industrivej 28, 8660 Stilling
@@ -18,14 +43,6 @@ Agendaen vil være:
 Da Kamstrup går meget op i sikkerheden er det desværre nødvendigt at tilmelde sig ved at skrive en e-mail til pmb@kamstrup.dk med navn i senest tirsdag d. 1/5.
 
 Vi vil opfordre til at arrangere fælleskørsel via [mailinglisten](https://groups.google.com/forum/#!forum/aarhus-cpp-user-group), alternativt går rute 200 næsten til døren.
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## Workshop - Introduktion til Qt på Raspberry Pi Zero
 
