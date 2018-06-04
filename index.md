@@ -4,6 +4,8 @@ Welcome to the website of the C++ user group of Aarhus.
 ## Join Our Mailinglist
 [https://groups.google.com/forum/#!forum/aarhus-cpp-user-group](https://groups.google.com/forum/#!forum/aarhus-cpp-user-group)
 
+To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
+
 ## Next up: Mjølner seminar: C++17 - endnu en revision af standarden og hva' så?
 Torsdag d. 7. juni 2018 kl. 16 - ca. 18
 
