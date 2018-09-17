@@ -6,7 +6,28 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
-## Next up: Mjølner seminar: C++17 - endnu en revision af standarden og hva' så?
+## Next up: Præsentation af nyttige biblioteker.
+Mandag d. 24. september 2018 kl. 17 - ca. 19
+
+Hos Open Space Aarhus - Katrinebjergvej 105, 8200 Aarhus N
+
+Bent Bisballe Nyeng vil denne gang holde et oplæg om forskellig biblioteker som oprindeligt blev skrevet som komponenter til forskellige softwareløsninger han har arbejdet på, og sidenhen er blevet trukket ud som sine egne spin-off projekter, til potentiel glæde for andre.
+Heriblandt et bibliotek til dynamisk at forbinde hændelser i et system med handlinger, et unit-test "framework" i en enkelt header fil, et generelt framework til at udvikle audio plugins i og en moderne C++ wrappeer til getopt.
+Derudover vil også en række andre biblioteker blive gennemgået, som dækker forskellige brugsscenarier som de fleste støder på. Heriblandt xml og json parsning, en png parser, og en hyper moderne variant at readline.
+
+Hvis andre kunne tænke sig at fortælle om nogle biblioteker som de har fundet særlig anvendelige, så vil der være lejlighed til det efter oplægget.
+
+Vel mødt
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## Mjølner seminar: C++17 - endnu en revision af standarden og hva' så?
 Torsdag d. 7. juni 2018 kl. 16 - ca. 18
 
 Hos Mjølner Informatics A/S - Finlandsgade 10, 8200 Aarhus N
@@ -22,14 +43,6 @@ Seminaret vil være en blanding af konceptuelle forklaringer og kode – dog med
 Der er med andre ord et par spændende eftermiddagstimer på programmet.
 
 OBS: AaCppUG er ikke arrangør af seminaret, det er Mjølner, vi opfordrer blot vores medlemmer til deltagelse :-)
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## Virksomhedsbesøg hos Kamstrup
 Torsdag d. 3. Maj 2018 kl. 17:00 til 19:00.
