@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Handy C/C++ Libraries</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+# Handy C/C++ Libraries
+
+Bent Bisballe Nyeng - _deva@aasimon.org_
+
+MSc CS by education.
+
+Open Source Developer by trade.
+
+<sub>Slideshow made with markdown and https://revealjs.com</sub>
+
+<sub>Slideshow available on the user-group git.</sub>
+				</section>
+				<section data-markdown>
+## Notification library
+Qt signal/slot -style
+
+Meet `notifier.h`
+
+http://cgit.drumgizmo.org/drumgizmo.git/tree/src/notifier.h
+
+LGPL - may be released separately under BSD some day
+				</section>
+				<section data-markdown>
+```c++
+class Foo
+{
+public:
+	void doDaa()
+	{
+		myNotifier(42);
+	}
+	Notifier&lt;int&gt; myNotifier;
+};
+
+
+Bar::Bar()
+{
+	CONNECT(&foo, myNotifier,
+	        this, &Bar::somethingHappened);
+	... or ...
+	foo.myNotifier.connect(this, &Bar::somethingHappened);
+}
+
+void Bar::somethingHappened(int f)
+{
+	...
+}
+```
+				</section>
+				<section data-markdown>
+- Signaller doesn't have to know about listener.
+- Single header - C++11.
+- Strongly typed events.
+- Compiler checked connections.
+- If `Bar` inherits `Listener` it will automatically disconnect when deleted - not required.
+- Alas; Macro magic is needed to get Qt-like syntax.
+- Call order is the same as connection order.
+
+Lambda connection was planned but never implemented because we
+normally have object backed receivers anyway.
+				</section>
+				<section data-markdown>
+## KISS Unit-Test Library
+
+Meet `dgunit.h`
+
+http://cgit.drumgizmo.org/drumgizmo.git/tree/test/dgunit.h
+
+LGPL - may be released separately under BSD some day
+				</section>
+				<section data-markdown>
+```c++
+#include "dgunit.h"
+
+class MyTest
+	: public DGUnit
+{
+public:
+	MyTest()
+	{
+		DGUNIT_TEST(MyTest::test1);
+	}
+
+	void test1()
+	{
+		DGUNIT_ASSERT(someFunc()); // returns bool and must be true
+		DGUNIT_ASSERT_EQUAL(42, anotherFunc()); // returns int and must be 42
+	}
+};
+
+// Registers the fixture into the 'registry'
+static MyTest test;
+```
+				</section>
+				<section data-markdown>
+```c++
+#define DGUNIT_MAIN
+#include "dgunit.h"
+
+#include &lt;fstream&gt;
+
+int main(int argc, char* argv[])
+{
+	std::ofstream xmlfile;
+	xmlfile.open("result_" OUTPUT ".xml");
+	return DGUnit::runTests(xmlfile);
+}
+```
+				</section>
+				<section data-markdown>
+- Basically CppUnit without a library.
+- All tests compiled in will automatically be executed when calling `DGUnit::runTests()`.
+- `DGUNIT_ASSERT_EQUAL` requires the types to be exactly the same, cast as needed.
+- `DGUNIT_ASSERT_EQUAL` similarly need the type to be streamable.
+  - Add `std::ostream& operator&lt;&lt;(std::ostream& stream, const MyType& v)` as needed.
+- Alas, again; Macro magic is needed. This time for getting line-numbers.
+				</section>
+				<section data-markdown>
+## Audio Plugin Framework
+
+Meet `plugingizmo`
+
+http://cgit.drumgizmo.org/plugingizmo.git/
+
+LGPL
+				</section>
+				<section data-markdown>
+- Inherit single class and fill in the details.
+- Compile to multiple plugin formats with no hazzle.
+
+Motivation: separate drumgizmo from the ugly plugin code (VSTi I'm
+looking at you).
+
+Currently only supports "simple" audio/midi plugins. No automation
+(yet) supported.
+Opening and closing of UIs as well as event callbacks are supported
+but the actual implementation must be made on the outside.
+
+- Supported formats are: LV2 and VST.
+- Upcoming format (in progress): AAX
+- Future (planned): DXI, AU, ...
+				</section>
+				<section data-markdown>
+Example in the repo:
+- http://cgit.drumgizmo.org/plugingizmo.git/tree/plugintest.h
+- http://cgit.drumgizmo.org/plugingizmo.git/tree/plugintest.cc
+				</section>
+				<section data-markdown>
+## Modern C++ Wrapper for getopt
+
+Meet `getoptpp`
+
+http://cgit.drumgizmo.org/getoptpp.git/
+
+LGPL
+				</section>
+				<section data-markdown>
+```c++
+#include "getoptpp.hpp"
+
+int main(int argc, char* argv[]) {
+	int verbose_flag;
+
+	dg::Options opt;
+	opt.add("verbose", no_argument, &verbose_flag, 1, [&]() {
+		std::cout &lt;&lt; "verbose: " &lt;&lt; verbose_flag &lt;&lt; "\n";
+	});
+	opt.add("append", no_argument, 'b', [&]() {
+		std::cout &lt;&lt; "append\n";
+	});
+	opt.add("create", required_argument, 'c', [&]() {
+		std::cout &lt;&lt; "create: " &lt;&lt; optarg &lt;&lt; "\n";
+	});
+	opt.add("file", required_argument, 'f', [&]() {
+		std::cout &lt;&lt; "file: " &lt;&lt; optarg &lt;&lt; "\n";
+	});
+	opt.add("help", no_argument, '?', [&]() {
+		std::cout &lt;&lt; "usage stuff\n";
+	});
+
+	opt.process(argc, argv);
+	for(const auto& arg : opt.arguments())
+	{
+		std::cout &lt;&lt; arg &lt;&lt; std::endl;
+	}
+}
+```
+				</section>
+				<section data-markdown>
+- Header only wrapper around getopt.
+- Attempt at removing redundancy - help texts could be added as well.
+- Lambda for actual handler code instead of switch.
+				</section>
+				<section data-markdown>
+## Debug Printer and Logger
+
+Meet `hugin`
+
+http://cgit.drumgizmo.org/hugin.git/
+
+GPL (we'd better do something about that...)
+				</section>
+				<section data-markdown>
+```c++
+#include &lt;hugin.h&gt; // for c
+#include &lt;hugin.hpp&gt; // for c++
+
+INFO(example, "We are up and running");
+DEBUG(example, "Or are we %d?", 42);
+ERR(example, "No we weren't running.");
+WARN(example, "Trying again...");
+```
+
+- Simple, does what you expect it to do.
+- Works everywhere(tm)
+- Can be disabled at compile-time with `-DDISABLE_HUGIN`.
+				</section>
+				<section data-markdown>
+```c++
+  int fd = open("/tmp/my.log", O_CREAT | O_RDWR, 0777);
+
+  hug_status_t status = hug_init(HUG_FLAG_USE_MUTEX |
+                                 HUG_FLAG_OUTPUT_TO_FILE |
+                                 HUG_FLAG_OUTPUT_TO_FD |
+                                 HUG_FLAG_OUTPUT_TO_STDOUT |
+                                 HUG_FLAG_OUTPUT_TO_SYSLOG |
+                                 HUG_FLAG_OUTPUT_TO_STDERR |
+                                 HUG_FLAG_USE_FILTER,
+                                 HUG_OPTION_FD, fd,
+                                 HUG_OPTION_FILENAME, "/tmp/my2.log",
+                                 HUG_OPTION_STDOUT_NO_DATE, 1,
+                                 HUG_OPTION_SYSLOG_HOST, "127.0.0.1",
+                                 HUG_OPTION_SYSLOG_PORT, 514,
+                                 HUG_OPTION_FILTER, "+all",
+                                 HUG_OPTION_END);
+
+  if(status != HUG_STATUS_OK)
+    return 1;
+
+  INFO(example, "We are up and running");
+
+  DEBUG(foo, "Or are we %d?", 42);
+
+  hug_close();
+```
+				</section>
+				<section data-markdown>
+Can be complex at will.
+ - log to file
+ - log to syslog
+ - log to remote syslog (handy for windows head-less apps)
+ - filter output, wine-style: `+all,-foo`
+ - mutex protected
+
+Warning: Old code ahead - but it works!
+				</section>
+				<section data-markdown>
+A few more of my own:
+
+Audio input/output library for ALSA:
+- http://cgit.aasimon.org/libaudioio.git/
+
+LibUSB hot-plug support:
+- http://cgit.aasimon.org/libusbhp.git/
+
+RTP interface library (with optional encryption):
+- http://cgit.aasimon.org/lrtp.git/
+
+Used in for example http://cgit.aasimon.org/simplertp.git/
+				</section>
+				<section data-markdown>
+DANGER! _Not-Invented-Here_ ahead...
+				</section>
+				<section data-markdown>
+## XML DOM Parser
+
+Meet `pugixml`
+
+https://pugixml.org/
+
+MIT
+				</section>
+				<section data-markdown>
+- Simple DOM parser
+- Easy to use as submodule (ie. no need for libxml or eXpat)
+- Translation from/to struct needs custom code.
+				</section>
+				<section data-markdown id="foo">
+## JSON Parser
+
+Meet `picojson`
+
+https://github.com/kazuho/picojson/
+
+BSD
+				</section>
+				<section data-markdown>
+- Header only
+- Strongly typed (sort-of)
+- Translation from/to struct needs custom code.
+				</section>
+				<section data-markdown>
+Introspection in C++20 is going to be _SO COOL_!
+				</section>
+				<section data-markdown>
+## Portable PNG Parser
+
+Meet `lodepng`
+
+https://lodev.org/lodepng/
+
+Zlib licensed (BSD like)
+				</section>
+				<section data-markdown>
+- Simple(r) to use (libpng is horrible!)
+- Lightweight - can even run embedded.
+- Does not depend on any external libs.
+- Highly suitable for plugins, avoids symbol clashes.
+				</section>
+				<section data-markdown>
+## Hyper Modern `readline` Replacement.
+
+Meet `replxx`
+
+https://github.com/AmokHuginnsson/replxx
+
+BSD
+				</section>
+				<section data-markdown>
+- Original readline is hard to compile on windows.
+- Syntax highlighting.
+- Tab-completion
+- History (persisted)
+- History searching (ctrl-r)
+				</section>
+				<section data-markdown>
+## Thank You!
+Questions?
+
+Would anybody like to share some of their own libraries/experiences?
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
