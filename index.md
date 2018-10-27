@@ -6,7 +6,31 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
-## Next up: Præsentation af nyttige biblioteker.
+## Next up: Virksomhedsbesøg hos Luxion
+Tirsdag d. 6. november 2018 kl. 17 - ca. 19
+
+Hos Luxion: Rymarken 2, 8210 Aarhus V
+
+Tilmelding påkrævet. Send en email til tmartsum@gmail.com for deltagelse.
+
+Søren Gammelmark holder et indlæg:
+"En kort historie om optimering - hvordan man opnår 200x speedup"
+
+Derefter er der som sædvanlig mulighed for generel networking.
+
+Læs mere om Luxion og deres (Qt) projekt KeyShot på deres [hjemmeside](https://luxion.com/about.html)
+
+Vel mødt
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## Præsentation af nyttige biblioteker.
 Mandag d. 24. september 2018 kl. 17 - ca. 19
 
 Hos Open Space Aarhus - Katrinebjergvej 105, 8200 Aarhus N
@@ -18,14 +42,6 @@ Derudover vil også en række andre biblioteker blive gennemgået, som dækker f
 Hvis andre kunne tænke sig at fortælle om nogle biblioteker som de har fundet særlig anvendelige, så vil der være lejlighed til det efter oplægget.
 
 Vel mødt
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## Mjølner seminar: C++17 - endnu en revision af standarden og hva' så?
 Torsdag d. 7. juni 2018 kl. 16 - ca. 18
