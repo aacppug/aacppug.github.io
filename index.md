@@ -6,7 +6,41 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
-## Next up: Virksomhedsbesøg hos Luxion
+## Next up: Juleafslutningsbrugergruppemøde og MeetingCpp trip report
+
+  * Mandag 17. december 2018: 17:00 – 19:00++.
+  * Sted: Open Space Aarhus, Katrinebjergvej 105 (se eventuelt [http://osaa.dk/](http://osaa.dk/)).
+
+Flere af vore medlemmer har deltaget i MeetingCpp i Berlin og programmet kommer således til bestå af lightning talks om udvalgte dele af konferencen samt den legendariske conan-quiz.
+
+Det kan ikke garanteres at afslutningstidspunktet overholdes, og ej heller at der ikke vil være juleøl.
+
+Vel mødt
+
+## Next-next up: Virksomhedsbesøg hos Roku Denmark
+
+  * Torsdag 17. januar 2019: 17:00 – 19:00
+  * Sted: Hedeager 44 i Skejby
+
+Roku Denmark har i anledning af deres nylige indryk inviteret brugergruppen på virksomhedsbesøg.
+
+Roku er pt den førende streaming platform i USA, og den danske afdeling specialiserer sig indenfor trådløs lyd til audio produkter i Roku's økosystem.
+
+De byder på en bid mad, demoer af trådløs lyd, masser af advanceret C++ på embedded devices, og en session om statistisk analyse i real-tid med C++ fra Bjørn Reese.
+
+Det foregår på deres kontor, Hedeager 44 i Skejby, også kendt som 'AKSEN'.
+
+Vi ses den på den første 17. i 2019.
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## Virksomhedsbesøg hos Luxion
 Tirsdag d. 6. november 2018 kl. 17 - ca. 19
 
 Hos Luxion: Rymarken 2, 8210 Aarhus V
@@ -21,14 +55,6 @@ Derefter er der som sædvanlig mulighed for generel networking.
 Læs mere om Luxion og deres (Qt) projekt KeyShot på deres [hjemmeside](https://luxion.com/about.html)
 
 Vel mødt
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## Præsentation af nyttige biblioteker.
 Mandag d. 24. september 2018 kl. 17 - ca. 19
