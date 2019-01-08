@@ -6,18 +6,7 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
-## Next up: Juleafslutningsbrugergruppemøde og MeetingCpp trip report
-
-  * Mandag 17. december 2018: 17:00 – 19:00++.
-  * Sted: Open Space Aarhus, Katrinebjergvej 105 (se eventuelt [http://osaa.dk/](http://osaa.dk/)).
-
-Flere af vore medlemmer har deltaget i MeetingCpp i Berlin og programmet kommer således til bestå af lightning talks om udvalgte dele af konferencen samt den legendariske conan-quiz.
-
-Det kan ikke garanteres at afslutningstidspunktet overholdes, og ej heller at der ikke vil være juleøl.
-
-Vel mødt
-
-## Next-next up: Virksomhedsbesøg hos Roku Denmark
+## Next up: Virksomhedsbesøg hos Roku Denmark
 
   * Torsdag 17. januar 2019: 17:00 – 19:00
   * Sted: Hedeager 44 i Skejby
@@ -39,6 +28,17 @@ Vi ses den på den første 17. i 2019.
 Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
 
 ## Meeting Minutes
+
+## Juleafslutningsbrugergruppemøde og MeetingCpp trip report
+
+  * Mandag 17. december 2018: 17:00 – 19:00++.
+  * Sted: Open Space Aarhus, Katrinebjergvej 105 (se eventuelt [http://osaa.dk/](http://osaa.dk/)).
+
+Flere af vore medlemmer har deltaget i MeetingCpp i Berlin og programmet kommer således til bestå af lightning talks om udvalgte dele af konferencen samt den legendariske conan-quiz.
+
+Det kan ikke garanteres at afslutningstidspunktet overholdes, og ej heller at der ikke vil være juleøl.
+
+Vel mødt
 
 ## Virksomhedsbesøg hos Luxion
 Tirsdag d. 6. november 2018 kl. 17 - ca. 19
