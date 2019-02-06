@@ -6,7 +6,26 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
-## Next up: Virksomhedsbesøg hos Roku Denmark
+## Next up: "Freestanding on the Shoulder of Giants"
+
+  * Mandag 25. februar 2019: 17:00 – 19:00
+  * Sted: Open Space Aarhus - Katrinebjergvej 105, 8200 Aarhus N
+
+Da Paul har fået accepteret en talk til EmBo++ i Bochum Tyskland får hele brugergruppen mulighed for at være prøvekaniner på talken.
+Titlen er "Freestanding on the Shoulder of Giants" og omhandler implementeringen af det nye freestanding forslag ( http://wg21.link/p0829 ) i avr-gcc.
+Herefter vil der som sædvanlig være generel socialisering og networking (ikke asio versionen)
+
+Vel mødt
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## Virksomhedsbesøg hos Roku Denmark
 
   * Torsdag 17. januar 2019: 17:00 – 19:00
   * Sted: Hedeager 44 i Skejby
@@ -20,14 +39,6 @@ De byder på en bid mad, demoer af trådløs lyd, masser af advanceret C++ på e
 Det foregår på deres kontor, Hedeager 44 i Skejby, også kendt som 'AKSEN'.
 
 Vi ses den på den første 17. i 2019.
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## Juleafslutningsbrugergruppemøde og MeetingCpp trip report
 
