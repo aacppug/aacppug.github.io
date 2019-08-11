@@ -6,14 +6,32 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
-## Next up: "Freestanding on the Shoulder of Giants"
+## Next up: "Nye Features i C++20"
 
-  * Mandag 25. februar 2019: 17:00 – 19:00
-  * Sted: Open Space Aarhus - Katrinebjergvej 105, 8200 Aarhus N
+  * Mandag 2. september 2019: 17:00 – 19:00
+  * Sted: Mjølner Informatics A/S - Finlandsgade 10, 8200 Aarhus N
 
-Da Paul har fået accepteret en talk til EmBo++ i Bochum Tyskland får hele brugergruppen mulighed for at være prøvekaniner på talken.
-Titlen er "Freestanding on the Shoulder of Giants" og omhandler implementeringen af det nye freestanding forslag ( http://wg21.link/p0829 ) i avr-gcc.
-Herefter vil der som sædvanlig være generel socialisering og networking (ikke asio versionen)
+Tanken er at der vil være en række mindre oplæg af enkeltstående
+features som vi vil gennemgå, præsenteret af dem som har lyst.
+Derefter vil vi gennemgå de resterende emner på en mere kursorisk måde
+for til sidst at have dannet et godt overbliksbillede af hvad den
+kommende standard kommer til at indeholde.
+
+Skulle du have lyst til at præsentere netop din ynglingsfeature, så meld
+tilbage her på listen.
+Hvis du ikke føler for at holde et oplæg er du naturligvis velkommen
+alligevel ;)
+
+Vi vil prøve at lave præsentationsniveauet, så alle kan være med, og
+eftersom det jo er bleeding egde sutff vi skal snakke om, skulle der
+være rig lejlighed til at lære noget for både en newbie samt den mest
+hårdkogte c++ guru :-)
+
+Reddit har en glimrende overblikstråd som man med fordel kan skimme
+inden mødet: [link](https://www.reddit.com/r/cpp/comments/cfk9de/201907_cologne_iso_c_committee_trip_report_the/).
+
+Og så har Herb Sutter naturligvis den obligatoriske trip report fra
+selve ISO C++ mødet i Køln: [link](https://herbsutter.com/2019/07/20/trip-report-summer-iso-c-standards-meeting-cologne/)
 
 Vel mødt
 
@@ -24,6 +42,17 @@ Vel mødt
 Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
 
 ## Meeting Minutes
+
+## "Freestanding on the Shoulder of Giants"
+
+  * Mandag 25. februar 2019: 17:00 – 19:00
+  * Sted: Open Space Aarhus - Katrinebjergvej 105, 8200 Aarhus N
+
+Da Paul har fået accepteret en talk til EmBo++ i Bochum Tyskland får hele brugergruppen mulighed for at være prøvekaniner på talken.
+Titlen er "Freestanding on the Shoulder of Giants" og omhandler implementeringen af det nye freestanding forslag ( http://wg21.link/p0829 ) i avr-gcc.
+Herefter vil der som sædvanlig være generel socialisering og networking (ikke asio versionen)
+
+Vel mødt
 
 ## Virksomhedsbesøg hos Roku Denmark
 
