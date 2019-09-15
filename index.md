@@ -6,7 +6,21 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
-## Next up: "Nye Features i C++20"
+
+## Next up: "Circular spans, Kalman filtre & FFT i CPP"
+    
+   * Mandag den 7. Oktober kl 17-19
+   * Sted: Roku Hedeager 44 
+
+### Talks:
+
+   * Morten fra LM: Kalman filtre & FFT i CPP
+
+   * Bjørn fra Roku: Circular span
+
+
+
+## Previous: "Nye Features i C++20"
 
   * Mandag 2. september 2019: 17:00 – 19:00
   * Sted: Mjølner Informatics A/S - Finlandsgade 10, 8200 Aarhus N
