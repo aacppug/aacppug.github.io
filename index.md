@@ -6,11 +6,25 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
+## Next Up: Brugergruppemøde
 
-## Next up: "Circular spans, Kalman filtre & FFT i CPP"
-    
+   * Onsdag den 27. Oktober 2021, kl 17-19
+
+Det første arrangement i 2021. Indhold og sted vil blive offentliggjort snarest,
+så hold øje med både mailinglisten og her på siden.
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## "Circular spans, Kalman filtre & FFT i CPP"
+
    * Mandag den 7. Oktober kl 17-19
-   * Sted: Roku Hedeager 44 
+   * Sted: Roku Hedeager 44
 
 ### Talks:
 
@@ -20,7 +34,7 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
 
 
 
-## Previous: "Nye Features i C++20"
+## "Nye Features i C++20"
 
   * Mandag 2. september 2019: 17:00 – 19:00
   * Sted: Mjølner Informatics A/S - Finlandsgade 10, 8200 Aarhus N
@@ -48,14 +62,6 @@ Og så har Herb Sutter naturligvis den obligatoriske trip report fra
 selve ISO C++ mødet i Køln: [link](https://herbsutter.com/2019/07/20/trip-report-summer-iso-c-standards-meeting-cologne/)
 
 Vel mødt
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## "Freestanding on the Shoulder of Giants"
 
