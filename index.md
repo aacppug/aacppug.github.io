@@ -8,10 +8,22 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
 
 ## Next Up: Brugergruppemøde
 
-   * Onsdag den 27. Oktober 2021, kl 17-19
+   * Wednesday 3'rd November 2021, kl 17-19
+   * Place: Roku Hedeager 44
+### Talks:
 
-Det første arrangement i 2021. Indhold og sted vil blive offentliggjort snarest,
-så hold øje med både mailinglisten og her på siden.
+   * 30 min: C++ & Tech @ Roku
+   * 30 min: Freestanding by Paul Bendixen (Trifork)
+   * 30 min: break
+   * 30 min: The future of AACppUG
+
+   There will be something to eat & drink, and an opportunity to see more about what Roku is working
+   on & how we do it.
+
+   As this is the first event since corona struck we allocate ample time for general chit-chat and
+   to discuss where we want to take the C++ user group. Should we get back in the groove of
+   regular meetings, should we do company visits, how can we keep up to speed on the new C++
+   features.
 
 ## Upcoming Events
 
@@ -51,7 +63,7 @@ Hvis du ikke føler for at holde et oplæg er du naturligvis velkommen
 alligevel ;)
 
 Vi vil prøve at lave præsentationsniveauet, så alle kan være med, og
-eftersom det jo er bleeding egde sutff vi skal snakke om, skulle der
+eftersom det jo er bleeding edge stuff vi skal snakke om, skulle der
 være rig lejlighed til at lære noget for både en newbie samt den mest
 hårdkogte c++ guru :-)
 
