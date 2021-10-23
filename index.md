@@ -63,7 +63,7 @@ Hvis du ikke føler for at holde et oplæg er du naturligvis velkommen
 alligevel ;)
 
 Vi vil prøve at lave præsentationsniveauet, så alle kan være med, og
-eftersom det jo er bleeding egde stuff vi skal snakke om, skulle der
+eftersom det jo er bleeding edge stuff vi skal snakke om, skulle der
 være rig lejlighed til at lære noget for både en newbie samt den mest
 hårdkogte c++ guru :-)
 
