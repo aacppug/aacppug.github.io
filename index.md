@@ -32,6 +32,26 @@ Embedded google calendar into our website [Link](https://calendar.google.com/cal
 
 ## Meeting Minutes
 
+## Meeting @ Roku
+
+   * Wednesday 3'rd November 2021, kl 17-19
+   * Place: Roku Hedeager 44
+
+### Talks:
+
+   * 30 min: C++ & Tech @ Roku
+   * 30 min: Freestanding by Paul Bendixen (Trifork)
+   * 30 min: break
+   * 30 min: The future of AACppUG
+
+   There will be something to eat & drink, and an opportunity to see more about what Roku is working
+   on & how we do it.
+
+   As this is the first event since corona struck we allocate ample time for general chit-chat and
+   to discuss where we want to take the C++ user group. Should we get back in the groove of
+   regular meetings, should we do company visits, how can we keep up to speed on the new C++
+   features.
+
 ## "Circular spans, Kalman filtre & FFT i CPP"
 
    * Mandag den 7. Oktober kl 17-19
