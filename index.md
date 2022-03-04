@@ -8,22 +8,21 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
 
 ## Next Up: Brugergruppemøde
 
-   * Wednesday 3'rd November 2021, kl 17-19
-   * Place: Roku Hedeager 44
+   * Thursday, March 10th, 2022, 17:00-19:00
+   * Place: Luxion @ Rymarken 2, 8210 Aarhus V
+
 ### Talks:
 
-   * 30 min: C++ & Tech @ Roku
-   * 30 min: Freestanding by Paul Bendixen (Trifork)
-   * 30 min: break
-   * 30 min: The future of AACppUG
+   * 15 min: Luxion: Corporate overview
+   * 30 min: Bent: C++ build system ([cctor.cc](http://ctor.cc))
+   * 15 min: Maiken: Optimizations of importers
+   * 5 min: Jan: Learning from Oldschool C: Clean Scopes & Local Functions
+   * 20 min: Paul: Embo++: Modern C++ on freestanding embedded devices
+   * Remaining: Small talk while Luxion provides food and drink
 
-   There will be something to eat & drink, and an opportunity to see more about what Roku is working
-   on & how we do it.
+   Luxion will provide food and drink.
 
-   As this is the first event since corona struck we allocate ample time for general chit-chat and
-   to discuss where we want to take the C++ user group. Should we get back in the groove of
-   regular meetings, should we do company visits, how can we keep up to speed on the new C++
-   features.
+   For better planning, please inform us if you are coming and whether you want food or not: https://da.surveymonkey.com/r/9SQXW59
 
 ## Upcoming Events
 
