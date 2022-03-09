@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introducing ctor.cc C++ build-system</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			code {
+					font-size: 0.7em;
+					color: #aaa;
+					background-color: #333;
+					padding: 0.1em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+# ctor.cc
+## A C++ build-system
+
+By Bent Bisballe Nyeng (_deva@aasimon.org_)
+				</section>
+				<section>
+<blockquote class="fragment semi-fade-out" data-fragment-index="1">
+	Have you ever wondered, why, when you are a C++ programmer and you
+	want to compile a C++ project, you also need to learn some <strong>other</strong>
+	language in order to be able to build your project?
+</blockquote>
+<p style="background: #880000; font-size: 2em; position: relative;top: -2.5em" class="fragment fade-up" data-fragment-index="1">Enter <var>ctor.cc</var></p>
+				</section>
+				<section>
+<h2>Key requirements</h2>
+<ul>
+<li class="fragment">No dependencies other than the C++-20 compiler</li>
+<li class="fragment">No other skills than C++ required of the developer</li>
+<li class="fragment">Must do everything you would expect from a modern build-system, ex:
+  <ul>
+		<li>Parallel builds</li>
+    <li>Dependency tracking</li>
+    <li>Externals</li>
+	</ul>
+</li>
+</ul>
+				</section>
+				<section>
+<h2>How?</h2>
+<ul>
+	<li class="fragment"><code>REG</code> macro - <code>int a = regFunc()</code> wrapper.</li>
+	<li class="fragment"><code>std::source_location</code> for file registration</li>
+	<li class="fragment"><code>std::filesystem</code> for reading timestamps</li>
+	<li class="fragment"><code>execv</code>, <code>posix_spawn</code> and friends for executing the compiler, linker and other tools</li>
+	<li class="fragment"><code>std::async</code> for parallel compilation</li>
+	<li class="fragment"><code>std::thread::hardware_concurrency()</code> for automatic <code>-jn</code> deduction</li>
+	<li class="fragment"><code>g++ -MMD</code> (<code>foo.d</code>	files) for dependency tracking</li>
+	<li class="fragment"><code>foo.flags</code> file used for flags change tracking</li>
+<ul>
+				</section>
+				<section>
+<h2>Configure target</h2>
+Supports cross-compilation and tool-chain control.
+<ul>
+	<li class="fragment">Through configure arguments
+		<pre>./ctor configure --host arm-none-eabi</pre>
+	</li>
+	<li class="fragment">Through environment variables
+		<pre>CXX=arm-none-eabi-g++ ./ctor configure</pre>
+	</li>
+</ul>
+
+<p class="fragment">
+	Configuration cached in <code>configuration.cc</code>.
+</p>
+<p class="fragment">
+	Build parameterization top of the todo list.
+</p>
+				</section>
+				<section>
+<h2>Re-building the build-tool</h2>
+<ul>
+	<li class="fragment">When <code>ctor.cc</code> (build config) files change</li>
+	<li class="fragment">When <code>configuration.cc</code> files change</li>
+</ul>
+<p class="fragment">
+	Re-invocation is needed after compilation.
+</p>
+				</section>
+				<section>
+<h2>Trixy self-re-invoke tree</h2>
+<p class="fragment">
+	Check for changes at startup.
+</p>
+<p class="fragment">
+	If any of the <code>ctor.cc</code> changed, re-compile and re-invoke
+	with the same arguments.
+</p>
+<p class="fragment">
+	If <code>configuration.cc</code> changed, re-compile, invoke
+	with <code>reconfigure</code> and finally re-invoke	with the same
+	arguments.
+</p>
+				</section>
+				<section>
+<pre>
+configure(args)
+  - collect (relevant) env vars in map: A
+  - collect (relevant) cli args in map: B
+  - call generateCache(A, B)
+  - then call rebuildCheck to force rebuild and then exit
+
+reconfigure(args)
+  - read A and B from (current) config cache and call
+    generateCache(A, B) to generate a new one
+  - then call rebuildCheck to rebuild and then exit
+
+rebuildCheck()
+  - check if rebuild is needed (if any ctor.cc files or
+    configuration.cc changed):
+    - rebuild
+    - if !"only configuration.cc changed" re-run, with
+      "reconfigure" argument
+
+generateCache(A, B)
+  - resolv tool-chain (compiler, linker, etc) and store in map: C
+  - run through externals and resolv them, store results in map: D
+  - generate config cache .cc file with A, B, C and D
+</pre>
+				</section>
+				<section>
+<h2>Other special targets</h2>
+<ul>
+	<li class="fragment">Independent target compilation (with dependency deduction)</li>
+	<li class="fragment"><code>clean</code> target</li>
+	<li class="fragment"><code>check</code> target, for unit test
+		compilation and execution</li>
+</ul>
+				</section>
+				<section>
+<h2>lost-found</h2>
+<ul>
+	<li class="fragment">bootstrapping (yes - libctor compiles itself)</li>
+	<li class="fragment">compilation-database (json) for c-lion and others</li>
+</ul>
+				</section>
+				<section data-markdown>
+## But does it work?
+Demo time...
+```sh
+git clone --recursive git://git.ctor.cc/ctor.git libctor
+```
+				</section>
+				<section>
+<h2>Currently working on</h2>
+ <ul>
+	External dependency flags with <code>std::variant</code>:
+  <ul>
+		<li>manual dependency</li>
+    <li>automatic dependency deduction through searches</li>
+	</ul>
+				</section>
+				<section>
+<h2>Future work</h2>
+<ul>
+	<li class="fragment">more external dependency variants like pkg-config and conan</li>
+	<li class="fragment">pre-/postbuild actions with conditions</li>
+	<li class="fragment">globbing</li>
+	<li class="fragment">custom target generation through external application (generators)</li>
+	<li class="fragment">lambda functions as generators</li>
+	<li class="fragment"><code>configure</code> args (<code>--with-X</code>/<code>--enable-Y</code> in autotools)</li>
+	<li class="fragment"><code>install</code> target with <code>PREFIX</code>/<code>DESTDIR</code> support</li>
+	<li class="fragment">documentation :-)</li>
+</ul>
+				</section>
+				<section data-markdown>
+## Thank You!
+Questions?
+
+For more information visit http://ctor.cc
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
