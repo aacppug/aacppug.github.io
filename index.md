@@ -6,7 +6,34 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
-## Next Up: Brugergruppemøde
+We also now have a discord channel, so join us at: [https://discord.gg/p9N5SrnnB](https://discord.gg/p9N5SrnnB)
+## Next Up: User-group meeting
+
+   * Wednesday, September 27th, 2023, 16:15-??
+   * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
+
+### Talks:
+
+   * TBA
+
+## Next-next Up: User-group meeting
+
+   * Wednesday, November 15th, 2023, 16:15-??
+   * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
+
+### Talks:
+
+   * TBA
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## Brugergruppemøde @ Luxion
 
    * Thursday, March 10th, 2022, 17:00-19:00
    * Place: Luxion @ Rymarken 2, 8210 Aarhus V
@@ -23,14 +50,6 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
    Luxion will provide food and drink.
 
    For better planning, please inform us if you are coming and whether you want food or not: https://da.surveymonkey.com/r/9SQXW59
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## Meeting @ Roku
 
