@@ -6,7 +6,8 @@ Welcome to the website of the C++ user group of Aarhus.
 
 To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegroups.com](mailto:aarhus-cpp-user-group+subscribe@googlegroups.com)
 
-We also now have a discord channel, so join us at: [https://discord.gg/p9N5SrnnB](https://discord.gg/p9N5SrnnB)
+We also now have a discord channel, so join us at: [https://discord.gg/UbwFQ4FqUn](https://discord.gg/UbwFQ4FqUn)
+
 ## Next Up: User-group meeting
 
    * Wednesday, September 27th, 2023, 16:15-??
