@@ -8,14 +8,19 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
 
 We also now have a discord channel, so join us at: [https://discord.gg/UbwFQ4FqUn](https://discord.gg/UbwFQ4FqUn)
 
-## Next Up: User-group meeting
+## Next Up: September Meetup
 
    * Wednesday, September 27th, 2023, 16:15-??
    * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
 
-### Talks:
+### Program:
 
-   * TBA
+   * 16.15: Velkomst og intro
+   * 16.25: Bent Bisballe Nyeng: Contemporary C++ without Free-Store (~15 min)
+   * 16.45: Morten Haahr Kristensen: A different kind of view (~15 min)
+   * 17.00: Pause
+   * 17.15: Jacob Toft Pedersen: Brutal refactoring – how to make legacy code submit to testing (~30 min)
+   * 17.30: Forfriskninger og netværk
 
 ## Next-next Up: User-group meeting
 
