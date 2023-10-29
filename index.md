@@ -8,7 +8,26 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
 
 We also now have a discord channel, so join us at: [https://discord.gg/UbwFQ4FqUn](https://discord.gg/UbwFQ4FqUn)
 
-## Next Up: September Meetup
+## Next Up: November meetup
+
+   * Wednesday, November 15th, 2023, 16:15 - 18:15
+   * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
+
+### Talks:
+Our usual meetup but with special guest stars.
+
+   * Mateusz Fejcher talks about Qt D-Bus
+   * Lukas Kosinski gives an introduction to QML for modern UI development
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## September Meetup
 
    * Wednesday, September 27th, 2023, 16:15-??
    * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
@@ -21,23 +40,6 @@ We also now have a discord channel, so join us at: [https://discord.gg/UbwFQ4FqU
    * 17.00: Pause
    * 17.15: Jacob Toft Pedersen: Brutal refactoring – how to make legacy code submit to testing (~30 min)
    * 17.30: Forfriskninger og netværk
-
-## Next-next Up: User-group meeting
-
-   * Wednesday, November 15th, 2023, 16:15-??
-   * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
-
-### Talks:
-
-   * TBA
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="200" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## Brugergruppemøde @ Luxion
 
