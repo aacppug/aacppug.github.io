@@ -19,6 +19,8 @@ Our usual meetup but with special guest stars.
    * Mateusz Fejcher talks about Qt D-Bus
    * Lukas Kosinski gives an introduction to QML for modern UI development
 
+Læs mere på [https://orbit.au.dk/cplusplus-november/](https://orbit.au.dk/cplusplus-november/) (tilmelding påkrævet)
+
 ## Upcoming Events
 
 <iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
