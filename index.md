@@ -8,7 +8,31 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
 
 We also now have a discord channel, so join us at: [https://discord.gg/UbwFQ4FqUn](https://discord.gg/UbwFQ4FqUn)
 
-## Next Up: November meetup
+## Next Up: February Meetup
+
+   * Tuesday, February 6th, 2024, 16:15 - 18:35++
+   * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
+
+### Talks:
+Tema-eftermiddag om memory-modellen i C++ med Ralf Mattethat
+
+  * 16.15: Velkomst og intro
+  * 16.25: Memorymodellen part #1, v. Ralf Mattethat
+  * 17:40: PAUSE
+  * 17:50: Memorymodellen part #2, v. Ralf Mattethat
+  * 18:35: Mulighed for fælles pizzabestilling og netværk
+
+Læs mere på [https://orbit.au.dk/cplusplus-february/](https://orbit.au.dk/cplusplus-february/) (tilmelding påkrævet)
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## November meetup
 
    * Wednesday, November 15th, 2023, 16:15 - 18:15
    * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
@@ -20,14 +44,6 @@ Our usual meetup but with special guest stars.
    * Lukas Kosinski gives an introduction to QML for modern UI development
 
 Læs mere på [https://orbit.au.dk/cplusplus-november/](https://orbit.au.dk/cplusplus-november/) (tilmelding påkrævet)
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## September Meetup
 
