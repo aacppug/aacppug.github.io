@@ -8,7 +8,31 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
 
 We also now have a discord channel, so join us at: [https://discord.gg/UbwFQ4FqUn](https://discord.gg/UbwFQ4FqUn)
 
-## Next Up: February Meetup
+## Next Up: March Meetup
+
+   * Wednesday, March 6th, 2024, 16:15 - 18:10++
+   * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
+
+### Talks:
+Vi kigger nærmere på brugen og udviklingen af Safetypes/Namedtypes og status på Freestanding.
+
+  * 16.15: Velkomst og fælles pizzabestilling
+  * 16.30: SafeTypes/NamedTypes, v. Søren Hansen
+  * 17:15: PAUSE
+  * 17:25: Fortid, nutid og fremtid for freestanding, v. Paul M. Bendixen
+  * 18:10: Pizza og netværk
+
+Læs mere på [https://orbit.au.dk/c-march-meetup/](https://orbit.au.dk/c-march-meetup/) (tilmelding påkrævet)
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## February Meetup
 
    * Tuesday, February 6th, 2024, 16:15 - 18:35++
    * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
@@ -23,14 +47,6 @@ Tema-eftermiddag om memory-modellen i C++ med Ralf Mattethat
   * 18:35: Mulighed for fælles pizzabestilling og netværk
 
 Læs mere på [https://orbit.au.dk/cplusplus-february/](https://orbit.au.dk/cplusplus-february/) (tilmelding påkrævet)
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## November meetup
 
