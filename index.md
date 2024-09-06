@@ -8,12 +8,33 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
 
 We also now have a discord channel, so join us at: [https://discord.gg/UbwFQ4FqUn](https://discord.gg/UbwFQ4FqUn)
 
-## Next Up: May Meetup
+## Next Up: C++ September Meetup @ KeyShot
+
+   * Tuesday, Sep 10th, 2024, 16:15
+   * Place: Keyshot, Rymarken 2, 8210 Aarhus V
+
+`auto cppug = [&nerds](auto time){std::ranges::for_each(nerds | talk(time) | tacos());}(tuesday(10,9,2024));`
+
+Vi skal høre om deres nyeste projekter, og så er der selvfølgelig også mulighed for en rundvisning i virksomheden, hvor du kan opleve et ægte udviklerhabitat!
+
+Eventet krydres med god mad og hyggeligt samvær. Alle interesserede uanset niveau er velkomne.
+
+Tilmeld dig her: [https://forms.office.com/e/HZMiijJyyq](https://forms.office.com/e/HZMiijJyyq) (tilmelding påkrævet)
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## May Meetup
 
    * Tuesday, May 7th, 2024, 16:15 - 18:15++
    * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
 
-### Talks:
+Talks:
 A buffet of interresting lightning talks
 
  * 16.15: Velkomst og fælles pizzabestilling
@@ -27,14 +48,6 @@ A buffet of interresting lightning talks
  * 18.15: Pizza og hygge
 
 Læs mere på [https://orbit.au.dk/cplusplus-may/](https://orbit.au.dk/cplusplus-may/) (tilmelding påkrævet)
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## April Meetup
 
