@@ -8,7 +8,32 @@ To join, simply send an empty email to [aarhus-cpp-user-group+subscribe@googlegr
 
 We also now have a discord channel, so join us at: [https://discord.gg/UbwFQ4FqUn](https://discord.gg/UbwFQ4FqUn)
 
-## Next Up: C++ October Meetup
+## Next Up: C++ March Meetup
+
+ * Wed, Amr 25th, 2026, 16:15
+ * Place: Mjølner Informatics @ Finlandsgade 10, 8200 Aarhus N
+
+Kom med, når vi sammen med Mjølner Informatics og OrbitLab byder velkommen til en hyggelig eftermiddag hvor vi nørder C++
+
+Denne gang dykker vi ned i  alt fra compiler-konflikter og de skjulte strukturer i hukommelsen til et build-system skrevet direkte i C++.
+
+ * 16.15: Velkomst
+ * 16.30: Implications of Compiler Versions v. Jimmi Agerskov
+ * 17.00: Where is my vtable? v. Henrik Lauf Christensen
+ * 17.30: ctor.cc – Et nyt build-system i C++ v. Bent Bisballe Nyeng
+ * 18.00: Pizza og netværk
+
+Læs mere på [https://orbit.au.dk/cplusplus-march-meetup2026/](https://orbit.au.dk/cplusplus-march-meetup2026/) (tilmelding påkrævet)
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
+
+Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
+
+## Meeting Minutes
+
+## C++ October Meetup
 
  * Thu, Oct 23rd, 2025, 16:15
  * Place: ORBIT, Aarhus University, Department of Electrical and Computer Engineering @ Finlandsgade 20, 8200 Aarhus N
@@ -24,14 +49,6 @@ Denne gang dykker vi ned i, hvordan C++ kan bruges til at udvide spilmotoren God
  * 18.10: Pizza og netværk
 
 Læs mere på [https://orbit.au.dk/cplusplus-october2025/](https://orbit.au.dk/cplusplus-october2025/) (tilmelding påkrævet)
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?bgcolor=%23F2F2F2&src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen&mode=agenda" style="border: 0; max-width: 100%;" width="640" height="300" frameborder="0" scrolling="no"></iframe>
-
-Embedded google calendar into our website [Link](https://calendar.google.com/calendar/embed?src=u62brl3hipkcaci6uhgee00s5g%40group.calendar.google.com&ctz=Europe%2FCopenhagen)
-
-## Meeting Minutes
 
 ## C++ May Meetup
 
